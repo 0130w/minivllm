@@ -28,4 +28,4 @@ class Sequence:
         self.block_table = []  # use block_table[token_idx // block_size] to retrive physical block_id
         self.temperature = sampling_params.temperature
         self.max_tokens = sampling_params.max_tokens
-        self.ignore_eos = sampling_params.ignore_eos
+        self.ignore_eos = sampling_params.ignore_eos  # ignore <EOS>
